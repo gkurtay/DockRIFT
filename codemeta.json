@@ -1,0 +1,31 @@
+{
+  "@context": "https://doi.org/10.5063/schema/codemeta-2.0",
+  "@type": "SoftwareSourceCode",
+  "name": "DockRIFT",
+  "version": "1.0.0",
+  "description": "Receptor-conditioned docking rank stability and observed-support Rank Resolution Limit analysis.",
+  "codeRepository": "https://github.com/gkurtay/DockRIFT",
+  "license": "https://spdx.org/licenses/MIT.html",
+  "programmingLanguage": "Python",
+  "runtimePlatform": "Python >=3.10",
+  "datePublished": "2026-08-26",
+  "author": [
+    {
+      "@type": "Person",
+      "givenName": "Gülbin",
+      "familyName": "Kurtay",
+      "email": "gulbinkurtay@hacettepe.edu.tr",
+      "@id": "https://orcid.org/0000-0003-0920-8409",
+      "affiliation": {
+        "@type": "Organization",
+        "name": "Hacettepe University"
+      }
+    }
+  ],
+  "keywords": [
+    "molecular docking",
+    "rank transferability",
+    "receptor ensembles",
+    "Rank Resolution Limit"
+  ]
+}
