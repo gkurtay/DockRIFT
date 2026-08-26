@@ -1,0 +1,3 @@
+version=1.0.0 scoring=vina receptor_rho=0.958585606832 rrl_status=FINITE rrl=0.875000000000
+version=1.0.0 scoring=vinardo receptor_rho=0.951769826880 rrl_status=FINITE rrl=0.884000000000
+API_SMOKE=PASS
