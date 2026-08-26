@@ -1,2 +1,2 @@
-d0793bbaaee0f5098a22b8cf8e7965e94515dedeb666c8f1cfc742c4f6299daf  dockrift-1.0.0-py3-none-any.whl
-de2bb6c83184899fb2bf967969a7fe2cd4e91f3ef8aca969a80c7b6bcec7a251  dockrift-1.0.0.tar.gz
+344fdd25f5f4161a3910cb56f9e7d2ee1e26e18df218ca473fe035e8194741a5  dockrift-1.0.0-py3-none-any.whl
+8420bbc7011bded29d06cd6d19dc553ac28d35fdd074d5edbcf7a2843b1fb9a3  dockrift-1.0.0.tar.gz
