@@ -1,0 +1,26 @@
+{
+  "title": "DockRIFT 1.0.0: Receptor-conditioned docking rank stability and Rank Resolution Limit analysis",
+  "description": "DockRIFT is an open-source Python toolkit and local-first visual workbench for separating within-receptor stochastic repeatability from receptor-to-receptor rank transferability in molecular docking. It implements rank correlation, exact pairwise inversion, rank displacement, Top-k stability, receptor-versus-seed attribution, and an observed-support Rank Resolution Limit with directional analysis and explicit censoring. The release includes CLI and Studio interfaces, tests, demo data, documentation, and reproducibility/provenance exports.",
+  "creators": [
+    {
+      "name": "Kurtay, Gülbin",
+      "affiliation": "Department of Chemistry, Hacettepe University",
+      "orcid": "0000-0003-0920-8409"
+    }
+  ],
+  "license": "MIT",
+  "upload_type": "software",
+  "access_right": "open",
+  "version": "1.0.0",
+  "publication_date": "2026-08-26",
+  "keywords": [
+    "molecular docking",
+    "receptor ensembles",
+    "rank stability",
+    "rank transferability",
+    "Rank Resolution Limit",
+    "virtual screening",
+    "uncertainty quantification",
+    "cheminformatics"
+  ]
+}
