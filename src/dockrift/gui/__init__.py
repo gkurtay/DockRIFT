@@ -1,1 +1,1 @@
-"""DockRIFT Studio GUI package."""
+"""DockRIFT Studio custom local-browser GUI."""
