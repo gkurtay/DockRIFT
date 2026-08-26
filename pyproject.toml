@@ -59,7 +59,7 @@ include-package-data = true
 where = ["src"]
 
 [tool.setuptools.package-data]
-dockrift = ["demo/*.csv", "gui/static/*.html", "gui/static/*.css", "gui/static/*.js"]
+dockrift = ["demo/*.csv", "demo/*.txt", "gui/static/*.html", "gui/static/*.css", "gui/static/*.js"]
 
 [tool.pytest.ini_options]
 pythonpath = ["src"]

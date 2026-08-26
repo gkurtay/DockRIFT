@@ -1,7 +1,6 @@
-include LICENSE README.md CHANGELOG.md CITATION.cff codemeta.json .zenodo.json CONTRIBUTING.md RELEASE_NOTES_v1.0.0.md BUILD_RELEASE.md
-include start_studio.sh start_studio.command start_studio.bat
-recursive-include src/dockrift/demo *.csv
+include README.md
+include LICENSE
+include CITATION.cff
+include CHANGELOG.md
+recursive-include src/dockrift/demo *.csv *.txt
 recursive-include src/dockrift/gui/static *.html *.css *.js
-recursive-include docs *.md *.txt *.json
-recursive-include examples *.csv
-recursive-include tests *.py

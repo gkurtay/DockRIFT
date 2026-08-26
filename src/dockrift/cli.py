@@ -35,8 +35,14 @@ def doctor():
         "dockrift":__version__,"python":sys.version.split()[0],"platform":platform.platform(),
         "numpy":numpy.__version__,"pandas":pandas.__version__,"scipy":scipy.__version__,"scikit_learn":sklearn.__version__,"plotly":plotly.__version__,
         "studio_static":all((STATIC/f).is_file() for f in ["index.html","style.css","app.js"]),
-        "demo_bundle":all((Path(__file__).resolve().parent/"demo"/f).is_file() for f in ["vdr_vina_vinardo_top1_scores.csv","dockrift_publication_pair_metric_master.csv","dockrift_final_biological_target_scoring_summary.csv"]),
+        "demo_bundle": False,
     }
+    try:
+        from .gui.logic import load_demo
+        demo, master, bio = load_demo()
+        checks["demo_bundle"] = bool(len(demo.data) == 4800 and len(master) == 60 and len(bio) == 14)
+    except Exception:
+        checks["demo_bundle"] = False
     checks["ready"]=bool(checks["studio_static"] and checks["demo_bundle"])
     print(json.dumps(checks,indent=2))
     return checks
