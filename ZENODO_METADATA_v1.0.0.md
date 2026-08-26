@@ -16,6 +16,12 @@
 
 **Publication date:** 2026-08-26
 
+**Version DOI:** 10.5281/zenodo.22104761
+
+**GitHub release:** https://github.com/gkurtay/DockRIFT/releases/tag/v1.0.0
+
+**Tagged source commit:** a9aa733b45efa5d4eacb23ab6fb81b489b04c5c3
+
 **Keywords:** molecular docking; receptor ensembles; rank stability; rank transferability; Rank Resolution Limit; virtual screening; uncertainty quantification; cheminformatics
 
 **Description:**

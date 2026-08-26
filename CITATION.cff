@@ -9,8 +9,9 @@ authors:
     affiliation: "Department of Chemistry, Hacettepe University"
 version: "1.0.0"
 date-released: "2026-08-26"
+doi: "10.5281/zenodo.22104761"
 repository-code: "https://github.com/gkurtay/DockRIFT"
-url: "https://github.com/gkurtay/DockRIFT"
+url: "https://doi.org/10.5281/zenodo.22104761"
 license: MIT
 keywords:
   - molecular docking

@@ -1,5 +1,7 @@
 # DockRIFT 1.0.0
 
+[![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.22104761.svg)](https://doi.org/10.5281/zenodo.22104761)
+
 **Docking Rank Instability & Fragility Toolkit**
 
 DockRIFT is an open-source Python toolkit and local-first visual workbench for quantifying how molecular-docking ligand rankings change across receptor conformations. It separates three validation questions that are often conflated:
@@ -136,7 +138,15 @@ Software verification demonstrates implementation consistency; it is not indepen
 
 ## Citation
 
-Please cite the archived DockRIFT v1.0.0 software record and the accompanying manuscript. GitHub renders the software citation metadata from [`CITATION.cff`](CITATION.cff). The version-specific Zenodo DOI is created from the tagged GitHub release.
+Please cite the version-specific archived software record:
+
+**Kurtay, G. (2026). DockRIFT 1.0.0: Receptor-conditioned docking rank stability and Rank Resolution Limit analysis. Zenodo. https://doi.org/10.5281/zenodo.22104761**
+
+- Version DOI: `10.5281/zenodo.22104761`
+- GitHub release: `v1.0.0`
+- Tagged source commit: `a9aa733b45efa5d4eacb23ab6fb81b489b04c5c3`
+
+Please also cite the accompanying manuscript when available. GitHub renders the software citation metadata from [`CITATION.cff`](CITATION.cff).
 
 ## License
 
