@@ -1,0 +1,33 @@
+Archive:  dist/dockrift-1.0.0-py3-none-any.whl
+  Length      Date    Time    Name
+---------  ---------- -----   ----
+      575  2026-08-26 00:00   dockrift/__init__.py
+     2722  2026-08-26 00:00   dockrift/bootstrap.py
+     3496  2026-08-26 00:00   dockrift/cli.py
+     1658  2026-08-26 00:00   dockrift/extract.py
+     2937  2026-08-26 00:00   dockrift/io.py
+     4135  2026-08-26 00:00   dockrift/metrics.py
+     1030  2026-08-26 00:00   dockrift/provenance.py
+      793  2026-08-26 00:00   dockrift/ranks.py
+     1120  2026-08-26 00:00   dockrift/report.py
+     2494  2026-08-26 00:00   dockrift/rrl.py
+      145  2026-08-26 00:00   dockrift/studio.py
+    24959  2026-08-26 00:00   dockrift/studio_utils.py
+     7027  2026-08-26 00:00   dockrift/validation.py
+      917  2026-08-26 00:00   dockrift/demo/dockrift_final_biological_target_scoring_summary.csv
+    24576  2026-08-26 00:00   dockrift/demo/dockrift_publication_pair_metric_master.csv
+   178071  2026-08-26 00:00   dockrift/demo/vdr_vina_vinardo_top1_scores.csv
+       48  2026-08-26 00:00   dockrift/gui/__init__.py
+    37144  2026-08-26 00:00   dockrift/gui/logic.py
+     8647  2026-08-26 00:00   dockrift/gui/server.py
+    14600  2026-08-26 00:00   dockrift/gui/static/app.js
+    17196  2026-08-26 00:00   dockrift/gui/static/index.html
+    16786  2026-08-26 00:00   dockrift/gui/static/style.css
+     1071  2026-08-26 00:00   dockrift-1.0.0.dist-info/licenses/LICENSE
+     6788  2026-08-26 00:00   dockrift-1.0.0.dist-info/METADATA
+       91  2026-08-26 00:00   dockrift-1.0.0.dist-info/WHEEL
+       90  2026-08-26 00:00   dockrift-1.0.0.dist-info/entry_points.txt
+        9  2026-08-26 00:00   dockrift-1.0.0.dist-info/top_level.txt
+     2316  2026-08-26 00:00   dockrift-1.0.0.dist-info/RECORD
+---------                     -------
+   361441                     28 files
