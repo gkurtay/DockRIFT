@@ -1,0 +1,1 @@
+const out=document.getElementById('out');document.getElementById('status').addEventListener('click',async()=>{out.textContent='Loading…';try{const r=await fetch('/api/status');const j=await r.json();out.textContent=JSON.stringify(j,null,2)}catch(e){out.textContent=String(e)}});
