@@ -1,0 +1,67 @@
+[build-system]
+requires = ["setuptools>=68"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "dockrift"
+version = "1.0.0"
+description = "Receptor-conditioned docking rank stability, Rank Resolution Limit analysis, and DockRIFT Studio"
+readme = "README.md"
+requires-python = ">=3.10"
+authors = [{name = "Gülbin Kurtay", email = "gulbinkurtay@hacettepe.edu.tr"}]
+license = "MIT"
+keywords = [
+  "molecular docking",
+  "rank stability",
+  "rank transferability",
+  "receptor ensembles",
+  "Rank Resolution Limit",
+  "virtual screening",
+  "uncertainty quantification",
+]
+classifiers = [
+  "Development Status :: 5 - Production/Stable",
+  "Intended Audience :: Science/Research",
+  "Programming Language :: Python :: 3",
+  "Programming Language :: Python :: 3.10",
+  "Programming Language :: Python :: 3.11",
+  "Programming Language :: Python :: 3.12",
+  "Programming Language :: Python :: 3.13",
+  "Topic :: Scientific/Engineering :: Chemistry",
+  "Operating System :: OS Independent",
+]
+dependencies = [
+  "numpy>=1.24",
+  "pandas>=1.5",
+  "scipy>=1.10",
+  "scikit-learn>=1.2",
+  "plotly>=5.20",
+]
+
+[project.optional-dependencies]
+test = ["pytest>=8"]
+
+[project.scripts]
+dockrift = "dockrift.cli:main"
+dockrift-studio = "dockrift.gui.server:main"
+
+[project.urls]
+Homepage = "https://github.com/gkurtay/DockRIFT"
+Repository = "https://github.com/gkurtay/DockRIFT"
+Issues = "https://github.com/gkurtay/DockRIFT/issues"
+Changelog = "https://github.com/gkurtay/DockRIFT/blob/main/CHANGELOG.md"
+
+[tool.setuptools]
+package-dir = {"" = "src"}
+include-package-data = true
+
+[tool.setuptools.packages.find]
+where = ["src"]
+
+[tool.setuptools.package-data]
+dockrift = ["demo/*.csv", "gui/static/*.html", "gui/static/*.css", "gui/static/*.js"]
+
+[tool.pytest.ini_options]
+pythonpath = ["src"]
+testpaths = ["tests"]
+addopts = "-ra"
