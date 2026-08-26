@@ -1,0 +1,22 @@
+DockRIFT Studio 1.0.0 - Windows quick start
+
+1. Create and activate a virtual environment (PowerShell):
+   python -m venv .venv
+   .\.venv\Scripts\Activate.ps1
+
+2. Install the supplied release wheel:
+   .\.venv\Scripts\python.exe -m pip install .\dockrift-1.0.0-py3-none-any.whl
+
+3. Check the installation:
+   .\.venv\Scripts\dockrift.exe doctor
+
+4. Launch the local browser interface:
+   .\.venv\Scripts\dockrift.exe studio
+
+   Alternative entry point:
+   .\.venv\Scripts\dockrift-studio.exe
+
+5. If the browser does not open automatically, visit:
+   http://127.0.0.1:8765/
+
+The GUI and CLI call the same numerical DockRIFT core. Uploaded score tables remain in the local Python process and are not sent to a remote analysis service by DockRIFT Studio.
