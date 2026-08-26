@@ -1,0 +1,22 @@
+cff-version: 1.2.0
+message: "If you use DockRIFT, please cite this software release and the accompanying manuscript."
+title: "DockRIFT: Receptor-conditioned docking rank stability and Rank Resolution Limit analysis"
+type: software
+authors:
+  - family-names: "Kurtay"
+    given-names: "Gülbin"
+    orcid: "https://orcid.org/0000-0003-0920-8409"
+    affiliation: "Department of Chemistry, Hacettepe University"
+version: "1.0.0"
+date-released: "2026-08-26"
+repository-code: "https://github.com/gkurtay/DockRIFT"
+url: "https://github.com/gkurtay/DockRIFT"
+license: MIT
+keywords:
+  - molecular docking
+  - receptor ensembles
+  - rank stability
+  - rank transferability
+  - Rank Resolution Limit
+  - virtual screening
+  - uncertainty quantification
