@@ -1,0 +1,1 @@
+418d8ca4e03e84edafaed3eb7562910a0ec762b9a8b327776ac493c66456a832  dockrift-1.0.0-py3-none-any.whl
